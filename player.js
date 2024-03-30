@@ -86,9 +86,7 @@ function createTrack(anyTrack) {
   audio.src = anyTrack.trackFileUrl;
   audio.controls = true;
   trackElement.append(trackCoverElement);
-  trackElement.append(
-    playList.tracks[i].artistName + ": " + playList.tracks[i].trackTitle
-  );
+  trackElement.append(anyTrack.artistName + ": " + anyTrack.trackTitle);
   trackElement.append(audio);
   return trackElement;
 }
