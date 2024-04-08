@@ -1,8 +1,13 @@
 export const playList = [
   {
+    playListId: "1",
     playListInfo: {
       title: "Hip-hop hits",
       coverImgUrl: "./cover.avif",
+      tatalInfo: {
+        totalTrackCount: 4,
+        totalTracksDurationInSec: 4,
+      },
     },
     tracks: [
       {
@@ -22,9 +27,14 @@ export const playList = [
     ],
   },
   {
+    playListId: "2",
     playListInfo: {
-      title: "Hip-hop hits",
+      title: "Rock",
       coverImgUrl: "./cover.avif",
+      tatalInfo: {
+        totalTrackCount: 4,
+        totalTracksDurationInSec: 4,
+      },
     },
     tracks: [
       {
